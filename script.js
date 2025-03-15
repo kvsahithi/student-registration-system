@@ -15,7 +15,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 <td>${student.email}</td>
                 <td>${student.contact}</td>
                 <td>
-                    <button class="edit" data-index="${index}"><i class="fa-solid fa-pen"></i></button></td>
+                    <button class="edit" data-index="${index}"><i class="fa-solid fa-pen"></i></button>
+                </td>
                 <td>
                     <button class="delete" data-index="${index}"><i class="fa-solid fa-trash"></i></button>
                 </td>
@@ -90,7 +91,8 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   function editStudent(event) {
-    const index = event.target.dataset.index;
+    const button = event.target.closest("button");
+    const index = button.dataset.index;
     let students = JSON.parse(localStorage.getItem("students")) || [];
     const student = students[index];
 

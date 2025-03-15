@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <td>${student.email}</td>
                 <td>${student.contact}</td>
                 <td>
-                    <button class="<i class="edit" data-index="${index}"><i class="fa-solid fa-pen"></i></button></td>
+                    <button class="edit" data-index="${index}"><i class="fa-solid fa-pen"></i></button></td>
                 <td>
                     <button class="delete" data-index="${index}"><i class="fa-solid fa-trash"></i></button>
                 </td>

@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e6f2f2;
+}
+
+header {
+  font-family: serif;
+  background-color: #6aa0a0;
+  color: #2d2d2d;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+h1 {
+  font-size: 2.5rem;
+}
+p {
+  font-size: 1.5rem;
+}
+main {
+  width: 50%;
+  margin: 20px auto;
+}
+h2 {
+  text-decoration: underline;
+  font-size: 1.8rem;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-bottom: 100px;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input {
+  padding: 10px;
+  margin: 5px 0;
+  text-align: start;
+  width: 80%;
+  height: 60px;
+  font-size: large;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #304b4b;
+  color: white;
+  font-size: large;
+  height: 50px;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #487070;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  background: #304b4b;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 5px;
+  display: inline-block;
+}
+
+nav a:hover {
+  background: #487070;
+}
+#table-container {
+  max-height: 500px; /* Setting a max height for the student records */
+  overflow-y: auto; /* Enabling vertical scrolling */
+  table-layout: fixed;
+}
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #304b4b;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}

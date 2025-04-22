@@ -1,3 +1,4 @@
+/* Reset and global settings */
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +9,7 @@ body {
   background-color: #e6f2f2;
 }
 
+/* Header styling */
 header {
   font-family: serif;
   background-color: #6aa0a0;
@@ -22,16 +24,22 @@ h1 {
 p {
   font-size: 1.5rem;
 }
+
+/* Main layout */
 main {
   width: 50%;
   margin: 20px auto;
 }
+
+/* Section headers */
 h2 {
   text-decoration: underline;
   font-size: 1.8rem;
   margin-top: 100px;
   margin-bottom: 20px;
 }
+
+/* Form styling */
 form {
   display: flex;
   flex-direction: column;
@@ -55,6 +63,7 @@ input {
   border-radius: 5px;
 }
 
+/* Button styling */
 button {
   background-color: #304b4b;
   color: white;
@@ -71,6 +80,7 @@ button:hover {
   background-color: #487070;
 }
 
+/* Navigation menu */
 nav {
   margin-top: 20px;
 }
@@ -89,11 +99,15 @@ nav a {
 nav a:hover {
   background: #487070;
 }
+
+/* Table container for scrollable area */
 #table-container {
-  max-height: 500px; /* Setting a max height for the student records */
-  overflow-y: auto; /* Enabling vertical scrolling */
+  max-height: 500px;
+  overflow-y: auto;
   table-layout: fixed;
 }
+
+/* Table styling */
 table {
   width: 100%;
   margin-top: 20px;
@@ -111,6 +125,7 @@ th {
   color: white;
 }
 
+/* Zebra striping for table rows */
 tr:nth-child(even) {
   background-color: #f2f2f2;
 }
